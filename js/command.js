@@ -38,4 +38,23 @@ window.onscroll = () => {
 
   
   };
+  /*====================== Menu fecha ao trocar de seção  ==============*/
+  ScrollReveal({ 
+    // reset: true,
+    distance:'80px',
+    duration:2000,
+    delay:200
+   });
 
+   ScrollReveal().reveal('.central-conteudo, .cabecalho', { origin: 'top'});
+   ScrollReveal().reveal('.central-imagem, .container-portfolio, .caixa-projetos, .contatos form', { origin: 'bottom'});
+   ScrollReveal().reveal('.central-conteudo h1, .sobremim-imagem, ', { origin: 'left'});
+   ScrollReveal().reveal('.central-conteudo p, .sobremim-conteudo, ', { origin: 'right'});
+  /*====================== typed js ==============*/
+const typed = new Typed('.multiple-text', {
+  strings: ['Desenvolvedor Web', 'Desenvolvedor Front-End'],
+  typeSpeed: 100,
+  backSpeed: 100,
+  backDelay: 1000,
+  loop: true
+});

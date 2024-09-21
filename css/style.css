@@ -83,6 +83,25 @@ section{
     background-size: cover;
     background-position: center;
 }
+.central-img img{
+    width: 35vw;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage{
+    0%{
+        transform: translateY(0);
+    }
+    
+    50%{
+        transform: translateY(-2.4rem);
+    }
+    
+    100%{
+        transform: translateY(0);
+    }
+}
+
 
 .central-conteudo h3{
     font-size: 3.2rem;
@@ -394,6 +413,13 @@ color: var(--main-color);
     .portifolio{
         padding-bottom: 7rem;
     }
+    .contatos{
+        min-height: auto;
+    }
+
+    .base{
+        padding: 2rem 3%;
+    }
 }
 
 @media (max-width: 768px){
@@ -423,7 +449,7 @@ color: var(--main-color);
     .central{
         flex-direction: column;
     }
-    .central-conteudo{
+    .central-conteudo h3{
         font-size: 2.6rem;
     }
 
@@ -460,5 +486,31 @@ color: var(--main-color);
 @media (max-width: 617px){
     .container-portfolio{
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 450px){
+    html{
+        font-size: 50%;
+    }
+    .contato form .caixa-entrada input{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 365px){
+    .central-imagem img{
+        width: 90vw;
+    }
+    .sobremim-imagem img{
+        width:90vw;
+    }
+    .base{
+        flex-direction: column-reverse;
+    }
+    .base p{
+        text-align: center;
+        margin-top: 2rem;
     }
 }
