@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.portifolio.controle_de_email.ControleDeEmailApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-23T16:46:44" hostname="MIRIS" time="0.579">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.portifolio.controle_de_email.ControleDeEmailApplicationTests" time="0.579"/>
+  <system-out><![CDATA[13:46:43.670 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.portifolio.controle_de_email.ControleDeEmailApplicationTests]: ControleDeEmailApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:46:43.750 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.portifolio.controle_de_email.ControleDeEmailApplication for test class com.portifolio.controle_de_email.ControleDeEmailApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-09-23T13:46:44.055-03:00  INFO 8516 --- [controle-de-email] [    Test worker] c.p.c.ControleDeEmailApplicationTests    : Starting ControleDeEmailApplicationTests using Java 17.0.12 with PID 8516 (started by nicol in Z:\Download\controle-de-email\controle-de-email)
+2024-09-23T13:46:44.057-03:00  INFO 8516 --- [controle-de-email] [    Test worker] c.p.c.ControleDeEmailApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-09-23T13:46:44.964-03:00  INFO 8516 --- [controle-de-email] [    Test worker] c.p.c.ControleDeEmailApplicationTests    : Started ControleDeEmailApplicationTests in 1.062 seconds (process running for 1.987)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
